@@ -20,7 +20,7 @@ For a developer choosing between Germany, Canada and Ireland: where does pay run
 
 ## Schema
 
-![ERD](erd.png)
+![ERD](ERD.png)
 
 `respondents` holds one row per person. `respondent_languages` holds one row per person per language and links back through `ResponseId`. The `respondents` table has 170+ columns in total. The diagram shows only the columns used in the analysis.
 
